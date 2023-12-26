@@ -1,0 +1,341 @@
+
+
+/* menu burger */
+
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+}
+/*Styles pour le Conteneur du Menu Burger */
+.burger-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;/*Marge interieur de l element*/
+    background-color: #333;
+
+}
+/*Styles pour l' Icone du Menu Burger */
+.burger-icon {
+    cursor: pointer;/*changement de cursor sur la class*/
+    z-index: 5;
+}
+.bar {
+    width: 25px;
+    height: 3px;
+    background-color: #fff;
+    margin: 6px 0;
+    transition: 0.4s;
+
+}
+
+
+/*Styles pour le Menu de Navigation*/
+.menu{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;  /* ENLEVER PR VOIR*/
+    display: none;
+}
+
+.menu li {
+    padding: 15px;
+    text-align: center;
+
+}
+
+.menu a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+}
+
+.menu.active {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    left :0;
+    width: 100%;
+    background-color: #333;
+
+}
+
+
+
+/* css pokemon */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+/* ceci permet de changé la couleur du fond  */
+.feu{
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #555555;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.eau{
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #22427c;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.plante {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #527048;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.ProfilDresseur {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #bd477e;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    background-color: #000000;
+    padding: 10px;
+    color: white;
+    transition: background-color 0.3s ease; 
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+header a{
+    text-decoration: none;
+    color: beige;
+}
+
+
+/* Couleur de fond au survol */
+header:hover {
+    background-color: #555; 
+}
+
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    color: #ddd;
+}
+
+/* cette class me permet de faire mes card */
+.card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+    margin: 0 10px 20px;
+    background-color: white;
+}
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+/* et ceci me permet de gère la taille de mes img dans les cards  */
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+    margin-bottom: 12px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #000000;
+    color: white;
+}
+.salameche{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.hericendre {
+    display: flex;
+    justify-content: space-around;
+}
+
+.poussifeu {
+    display: flex;
+    justify-content: space-around;
+}
+
+.ouisticram {
+    display: flex;
+    justify-content: space-around;
+}
+
+.gruikui {
+    display: flex;
+    justify-content: space-around;
+}
+
+.feunnec {
+    display: flex;
+    justify-content: space-around;
+}
+
+.flamiaou {
+    display: flex;
+    justify-content: space-around;
+}
+
+.flambino {
+    display: flex;
+    justify-content: space-around;
+}
+
+.chochodile {
+    display: flex;
+    justify-content: space-around;
+}
+
+.bulbizarre {
+    display: flex;
+    justify-content: space-around;
+}
+
+.germignon {
+    display: flex;
+    justify-content: space-around;
+}
+
+.arcko {
+    display: flex;
+    justify-content: space-around;
+}
+
+.tortipouss {
+    display: flex;
+    justify-content: space-around;
+}
+
+.vipélierre {
+    display: flex;
+    justify-content: space-around;
+}
+
+.marisson {
+    display: flex;
+    justify-content: space-around;
+}
+
+.brindibou {
+    display: flex;
+    justify-content: space-around;
+}
+
+.ouistempo {
+    display: flex;
+    justify-content: space-around;
+}
+
+.poussacha {
+    display: flex;
+    justify-content: space-around;
+}
+
+.carapuce {
+    display: flex;
+    justify-content: space-around;
+}
+
+.kaiminus {
+    display: flex;
+    justify-content: space-around;
+}
+
+.gobou {
+    display: flex;
+    justify-content: space-around;
+}
+
+.tiplouf {
+    display: flex;
+    justify-content: space-around;
+}
+
+.moustillon {
+    display: flex;
+    justify-content: space-around;
+}
+
+.grenousse {
+    display: flex;
+    justify-content: space-around;
+}
+
+.otaquin {
+    display: flex;
+    justify-content: space-around;
+}
+
+.larmeleon {
+    display: flex;
+    justify-content: space-around;
+}
+
+.coiffeton {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+
+
+
+@media (max-width: 600px) {
+    .card {
+        max-width: 100%;
+    }
+}
+
+body.dark{
+    background-color: black
+}
+body.dark p,
+body.dark h1,
+body.dark label {
+    color:#bd477e
+}
+.swiper {
+    width: 400px;
+    height: 400px;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }

@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body class="ProfilDresseur">
+    <header>  
+        <a href="plante.html">Plante</a>
+        <a href="eau.html">Eau</a>
+        <a href="feu.html">Feu</a>
+        <a href="profil dresseur.html">Profil Dresseur</a>
+
+       
+    </header>
+
+
+    <!--Menu Burger-->
+    <div class="burger-menu">
+        <!--Icône du Menu Burger-->
+        <div class="burger-icon" id="burger-icon">
+            <div class="bar"></div><!--Permet de dessiner le menu burger-->
+            <div class="bar"></div>
+            <div class="bar"></div>
+    </div>
+    <!--Menu de Navigation-->
+    <ul class="menu" id="menu">
+        <li><a href="#">Accueil</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">A propos</a></li>
+        <li><a href="#">Contact</a></li>
+    </ul>
+    </div>
+
+
+<!-- Dark Mode-->
+
+
+<button class="switcher"> Dark Mode</button>
+
+     
+<!-- Formulaire -->
+
+    <h1>Formulaire</h1> 
+
+
+    <main>
+        <form action=""> <!--annonce de creation d un formulaire -->
+            <label for="pseudo"> Nom de dresseur pokémon</label> <!--label : seert à donner un nom à input -->
+            <input type="text" id="pseudo" required> <!--input : permet de crée la case-->
+            <label for="mail">Email</label>
+            <input type="email" id="mail" required>
+            <label for="mdp">Mot de passe</label>
+            <input type="password" name="" id="mdp" required>
+            <input type="color">
+            <fieldset> <!-- fieldset : le cadre-->
+                <legend>Region</legend>
+                <select name="" id="region"> <!-- permet de crée une case avec des options qui sont listé-->
+                    <option value="Kanto">Kanto</option> 
+                    <option value="Johto">Johto</option>
+                    <option value="Hoenn">Hoenn</option>
+                    <option value="Sinnoh">Sinnoh</option>
+                    <option value="Unys">Unys</option>
+                    <option value="Kalos">Kalos</option>
+                    <option value="Alola">Alola</option>
+                    <option value="Galar">Galar</option>
+                </select>
+            </fieldset>
+            <fieldset>
+                <legend>Element de votre starter</legend> <!--bouton radio : qu'en on cohe quelque chose l'autre se décochera, grâce au name -->
+                <label for="f">Feu</label>
+                <input type="radio" name="element" id="f">
+                <label for="e">Eau</label>
+                <input type="radio" name="element" id="e">
+                <label for="p">Plante</label>
+                <input type="radio" name="element" id="p">
+            </fieldset>
+            <fieldset>
+                <legend>Pokeball avec lequel vous avez capturé votre starter</legend>
+                <input type="checkbox" name="" id="pokeb">
+                <label for="superb">Superball</label>
+                <input type="checkbox" name="" id="superb">
+                <label for="hyperb">Hyperball</label>
+                <input type="checkbox" name="" id="hyperb">
+                <label for="masterb">Masterball</label>
+                <input type="checkbox" name="" id="masterb">
+                <label for="soinb">Soinball</label>
+                <input type="checkbox" name="" id="soinb">
+            </fieldset>
+            <input type="reset">
+            <input type="submit" id="submitBtn">
+        </form>
+    </main>
+
+        <div id="mdpError"></div>
+    
+
+
+
+    <!-- Caroussel -->
+
+ <!-- Autre façon de faire sans swiper   
+<div class="premiere-image">
+    <img id="img-caroussel" src="img/mbulbizarre.jpg" alt="">
+</div>
+-->  
+
+<div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide"><img id="img-caroussel" src="img/mbulbizarre.jpg" alt=""></div>
+      <div class="swiper-slide"><img id="img-caroussel" src="img/mcarapuce.jpg" alt=""></div>
+      <div class="swiper-slide"><img id="img-caroussel" src="img/msalameche.jpg" alt=""></div>
+    </div>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-pagination"></div>
+  </div>
+
+  
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+    <script src="swiper.js"></script>
+
+    
+</body>
+</html>
